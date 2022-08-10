@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: query
+spec:
+  containers:
+    - name: query
+      image: blog/query:0.0.1
+      
